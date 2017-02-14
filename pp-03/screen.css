@@ -7,6 +7,33 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* ===== BASE STYLES ===== */
+
+
+legend{
+  font-size: 2.25em;
+  line-height: 1.404em; 
+}
+
+li {
+  line-height: 1.404em;
+}
+
+label {
+  font-size: 1.25em;
+}
+
+/*form*/
+label,
+input {
+  /*box-sizing: border-box;*/
+  width:50%;
+  display:block;
+}
+
+li #submit {
+  width:25%;
+}
+
 /* ===== LAYOUT STYLES ===== */
 
 
