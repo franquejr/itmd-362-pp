@@ -11,7 +11,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 legend{
   font-size: 2.25em;
-  line-height: 1.404em; 
+  line-height: 1.404em;
 }
 
 li {
@@ -38,5 +38,10 @@ li #submit {
 
 
 /* ===== MODULAR STYLES ===== */
+
+fieldset {
+  padding-left:10%;
+  padding-right:10%;
+}
 
 /* ===== STATE STYLES ===== */
