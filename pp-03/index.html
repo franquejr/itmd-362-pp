@@ -9,11 +9,11 @@
 <body>
   <form name= "myform" id="sign-up" method="post" action="#null">
     <label for="email">Email</label>
-    <input type="text" pattern="^.+@.+$" placeholder="email" id="email" />
+    <input type="email" pattern="^.+@.+$" placeholder="email" id="email" />
     <label for="birth-date">Date of birth</label>
-    <input type="text" placeholder="date of birth" id="birth-date" />
+    <input type="month" placeholder="date of birth" id="birth-date" />
     <label for="phone">Phone Number</label>
-    <input type="number" inputmode="number" pattern=""[0-9]*" placeholder="phone number" id="phone" />
+    <input type="tel" placeholder="phone number" id="phone" />
     <input type="submit" name="submit" id="submit" value="Submit" />
   </form>
 
