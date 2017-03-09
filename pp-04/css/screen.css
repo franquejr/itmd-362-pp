@@ -96,7 +96,7 @@ fieldset {
 /**
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
+ * 3. Remove the padding so developers are not cfont-family: 'Open Sans', sans-serif;aught out when they zero out
  *    `fieldset` elements in all browsers.
  */
 
@@ -186,7 +186,7 @@ img, audio, video {
 
 /* ===== BASE STYLES ===== */
 
-/*
+/*font-family: 'Open Sans', sans-serif;
   Major Sixth Modular Scale:
   http://www.modularscale.com/?22&px&1.667&web&text
 */
@@ -207,4 +207,33 @@ label {
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
+
+h1 {
+  font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom:0.70em;
+}
+
+[type ="email"] {
+  background-color:#bec5d1;
+}
+#input-email{
+  padding-bottom:1.70em;
+  padding-top:0.70em;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+label {
+  font-family: 'Roboto', sans-serif, italic;
+}
+
+li:last-child{
+  padding-top:0.70em;
+}
+
+
 
