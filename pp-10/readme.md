@@ -13,3 +13,5 @@ Take a screenshot of the interface on both a mobile and desktop device. Then, sk
 * Sketch or illustrate (e.g., in Photoshop) your alternate/"b" test, placed in this directory (`pp-10/`)
 
 * A text description of the modification, and a description of the HTML, CSS, and JavaScript that you would need to write for the test (you do *not* have to write the actual HTML, CSS, and JavaScript, however)
+
+I would try to condense both tool bars into one. Users will then be able to hover over the links and be able to get more possible clickable items. Using Javascipt to display some more choices will help hide the two rows of possible links. 
